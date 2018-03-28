@@ -40,7 +40,7 @@ interface RouteRepositoryInterface
      * @param int $routeIid
      * @return void
      */
-    public function deleteById(int $routeIid);
+    public function deleteById($routeIid);
 
     /**
      * Get a list of Route
@@ -49,5 +49,5 @@ interface RouteRepositoryInterface
      */
     public function getList(
         \Magento\Framework\Api\SearchCriteriaInterface $searchCriteria = null
-    ): \MSP\ReLinkerApi\Api\RouteSearchResultsInterface;
+    );
 }
