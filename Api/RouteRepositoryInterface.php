@@ -18,14 +18,14 @@ interface RouteRepositoryInterface
      * @param \MSP\ReLinkerApi\Api\Data\RouteInterface $route
      * @return int
      */
-    public function save(\MSP\ReLinkerApi\Api\Data\RouteInterface $route): int;
+    public function save(\MSP\ReLinkerApi\Api\Data\RouteInterface $route);
 
     /**
      * Get Route by id
      * @param int $routeIid
      * @return \MSP\ReLinkerApi\Api\Data\RouteInterface
      */
-    public function get(int $routeIid): \MSP\ReLinkerApi\Api\Data\RouteInterface;
+    public function get($routeIid);
 
     /**
      * Get by Path value
@@ -33,7 +33,7 @@ interface RouteRepositoryInterface
      * @return \MSP\ReLinkerApi\Api\Data\RouteInterface
      * @throws \Magento\Framework\Exception\NoSuchEntityException
      */
-    public function getByPath(string $path): \MSP\ReLinkerApi\Api\Data\RouteInterface;
+    public function getByPath($path);
 
     /**
      * Delete Route
