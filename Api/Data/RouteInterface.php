@@ -85,19 +85,6 @@ interface RouteInterface extends ExtensibleDataInterface
     public function setProcessor($value);
 
     /**
-     * Get value for qs
-     * @return string
-     */
-    public function getQs();
-
-    /**
-     * Set value for qs
-     * @param string $value
-     * @return void
-     */
-    public function setQs($value);
-
-    /**
      * Retrieve existing extension attributes object or create a new one
      * @return \MSP\ReLinkerApi\Api\Data\RouteExtensionInterface|null
      */
