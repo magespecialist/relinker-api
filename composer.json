@@ -2,8 +2,6 @@
     "name": "msp/module-relinker-api",
     "description": "Static Relinker for Magento 2 API",
     "require": {
-        "php": "^7.0|^7.1|^7.2",
-        "magento/magento2-base": "^2.1|^2.2|^2.3"
     },
     "authors": [
         {
